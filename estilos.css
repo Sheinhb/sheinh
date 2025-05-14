@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.panel {
+    display: flex;
+}
+
+.info {
+    flex: 3;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    color: white;
+    margin: 10px 0;
+    text-decoration: none;
+    padding: 10px;
+    background: #222;
+}
